@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --pur50: hsl(260, 100%, 95%);
+  --pur300: hsl(264, 82%, 80%);
+  --pur500: hsl(263, 55%, 52%);
+
+  --g100: hsl(214, 17%, 92%);
+  --g200: hsl(0, 0%, 81%);
+  --g400: hsl(224, 10%, 45%);
+  --g500: hsl(217, 19%, 35%);
+  --dark-blue: hsl(219, 29%, 14%);
+  --black: hsl(0, 0%, 7%);
+
+  --f500: 500;
+  --f600: 600;
+  --f: 'Barlow Semi Condensed'
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  font-family: var(--f);
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
